@@ -5,10 +5,6 @@ public class Boat implements WaterVehicle{
 	private String name;
 	private int capacity;
 	
-	public Boat() {
-		// TODO Auto-generated constructor stub
-	}
-	
 	public Boat(String name , int capacity) {
 		// TODO Auto-generated constructor stub
 		this.name = name;
