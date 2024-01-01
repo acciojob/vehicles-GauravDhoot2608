@@ -4,6 +4,10 @@ public class Boat implements WaterVehicle{
 	
 	private String name;
 	private int capacity;
+
+	public Boat(){
+
+	}
 	
 	public Boat(String name , int capacity) {
 		// TODO Auto-generated constructor stub
@@ -22,7 +26,12 @@ public class Boat implements WaterVehicle{
 		// TODO Auto-generated method stub
 		return this.capacity;
 	}
-	
-	
 
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setCapacity(int capacity) {
+		this.capacity = capacity;
+	}
 }
